@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* header */
+header {
+    
+    width: 100vw;
+    padding: 0 1rem; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #9c36b5;
+   
+}
+/* header h1 {
+    font-size: clamp(1rem, 4vmin, 2rem);
+    line-height: 0.5;
+} */
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    width: 20px;
+}
+header i {
+    font-size: 1.5rem;
+}
+
+
+
+header #menu__content ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+header #menu__content ul li {
+    list-style-type: none;
+}
+header #menu__content ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+    
+
+
+header img {
+    width: 50px;
+}
+
+/* main */
+main { background: -webkit-linear-gradient(90deg, #48005c,#8300e2,#a269ff);
+
+justify-content: center;
+text-align: center;
+}
+
+.card .Presentation{
+      width: 500px;
+      height: 500px;
+      background-color: white;
+      border-radius: 10%;
+      margin: 0 auto;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 1px 1px 10px 10px #000;
+}
+
+.card .Competence {
+     width: 500px;
+      height: 500px;
+      background-color: white;
+      border-radius: 10%;
+      margin: 0 auto;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 1px 1px 10px 10px #000;
+}
+
+.card .Avis {
+     width: 500px;
+     height: 500px;
+      background-color: white;
+      border-radius: 10%;
+      margin: 0 auto;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 1px 1px 10px 10px #000;
+}
+
